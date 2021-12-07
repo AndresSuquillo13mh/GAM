@@ -12,7 +12,7 @@ function appendHtml(el, str) {
   }
 }
 
-var modal_html = '<div aria-labelledby="modal-title" class="modal fade" id="modal" role="dialog" tabindex="-1"><div class="modal-dialog modal-lg" style="width:1100px; heigth:1300px;" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title" id="modal-title">title</h4></div><div class="modal-body" style = "margin: 0 auto; padding:0;"><iframe data-src="" height="100%" width="100%" style = "vertical-align: middle; display:block; margin: 0 auto; padding:0;" frameborder="0"></iframe></div><div class="modal-footer"><button class="btn btn-default btn-sm" data-dismiss="modal">Cerrar</button></div></div></div></div>';
+var modal_html = '<div aria-labelledby="modal-title" class="modal fade" id="modal" role="dialog" tabindex="-1"><div class="modal-dialog" style="width:1200px; heigth:1300px;" role="document"><div class="modal-content"><div class="modal-body"><iframe data-src="" height="110%" width="100%" frameborder="0" style = "vertical-align: middle; display:block; margin-left:-5px;"></iframe></div></div></div></div>';
 
 appendHtml(document.body, modal_html); // "body" has two more children - h1 and span.
 
